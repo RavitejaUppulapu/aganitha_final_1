@@ -1,0 +1,78 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    max-width: 50em;
+    margin: 0 auto;
+    color: #555;
+    line-height: 1.6;
+    padding: 1em;
+}
+
+.header {
+    background: url('images/background.webp') no-repeat center center / cover;
+    text-align: center;
+    padding: 5em 1em;
+    color: white;
+}
+
+.logo {
+    height: 80px;
+    margin-bottom: 1em;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.header p {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+h2 {
+    color: #333;
+    margin-top: 1em;
+    font-size: 1.8em;
+}
+
+.introduction,
+.section-1,
+.section-2,
+.third-section {
+    margin-bottom: 2em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+pre {
+    background: #f5f7f9;
+    border-left: 4px solid #69c;
+    padding: 1em;
+    overflow-x: auto;
+    color: #333;
+}
+
+code {
+    background: #eee;
+    padding: 0.2em 0.4em;
+    color: #a7adba;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
